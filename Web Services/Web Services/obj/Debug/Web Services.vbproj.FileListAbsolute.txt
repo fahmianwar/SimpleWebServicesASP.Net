@@ -1,0 +1,24 @@
+D:\Projects\Tugas\Tugas_Web_Services\Web Services\Web Services\bin\roslyn\csc.exe
+D:\Projects\Tugas\Tugas_Web_Services\Web Services\Web Services\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Projects\Tugas\Tugas_Web_Services\Web Services\Web Services\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projects\Tugas\Tugas_Web_Services\Web Services\Web Services\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Projects\Tugas\Tugas_Web_Services\Web Services\Web Services\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Projects\Tugas\Tugas_Web_Services\Web Services\Web Services\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Projects\Tugas\Tugas_Web_Services\Web Services\Web Services\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Projects\Tugas\Tugas_Web_Services\Web Services\Web Services\bin\roslyn\System.Collections.Immutable.dll
+D:\Projects\Tugas\Tugas_Web_Services\Web Services\Web Services\bin\roslyn\System.Reflection.Metadata.dll
+D:\Projects\Tugas\Tugas_Web_Services\Web Services\Web Services\bin\roslyn\vbc.exe
+D:\Projects\Tugas\Tugas_Web_Services\Web Services\Web Services\bin\roslyn\VBCSCompiler.exe
+D:\Projects\Tugas\Tugas_Web_Services\Web Services\Web Services\bin\roslyn\VBCSCompiler.exe.config
+D:\Projects\Tugas\Tugas_Web_Services\Web Services\Web Services\bin\Web Services.dll.config
+D:\Projects\Tugas\Tugas_Web_Services\Web Services\Web Services\bin\Web Services.dll
+D:\Projects\Tugas\Tugas_Web_Services\Web Services\Web Services\bin\Web Services.pdb
+D:\Projects\Tugas\Tugas_Web_Services\Web Services\Web Services\bin\Web Services.xml
+D:\Projects\Tugas\Tugas_Web_Services\Web Services\Web Services\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Projects\Tugas\Tugas_Web_Services\Web Services\Web Services\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Projects\Tugas\Tugas_Web_Services\Web Services\Web Services\obj\Debug\Web Services.vbprojResolveAssemblyReference.cache
+D:\Projects\Tugas\Tugas_Web_Services\Web Services\Web Services\obj\Debug\Web_Services.Resources.resources
+D:\Projects\Tugas\Tugas_Web_Services\Web Services\Web Services\obj\Debug\Web Services.vbproj.GenerateResource.Cache
+D:\Projects\Tugas\Tugas_Web_Services\Web Services\Web Services\obj\Debug\Web Services.dll
+D:\Projects\Tugas\Tugas_Web_Services\Web Services\Web Services\obj\Debug\Web Services.xml
+D:\Projects\Tugas\Tugas_Web_Services\Web Services\Web Services\obj\Debug\Web Services.pdb
