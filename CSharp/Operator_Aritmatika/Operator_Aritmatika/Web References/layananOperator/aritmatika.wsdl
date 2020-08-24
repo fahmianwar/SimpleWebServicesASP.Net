@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="Penjumlahan">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="a" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="b" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PenjumlahanResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="PenjumlahanResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Pengurangan">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="A" type="s:float" />
+            <s:element minOccurs="1" maxOccurs="1" name="B" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PenguranganResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="PenguranganResult" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Perkalian">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="A" type="s:float" />
+            <s:element minOccurs="1" maxOccurs="1" name="B" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PerkalianResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="PerkalianResult" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Pembagian">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="A" type="s:float" />
+            <s:element minOccurs="1" maxOccurs="1" name="B" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PembagianResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="PembagianResult" type="s:float" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="PenjumlahanSoapIn">
+    <wsdl:part name="parameters" element="tns:Penjumlahan" />
+  </wsdl:message>
+  <wsdl:message name="PenjumlahanSoapOut">
+    <wsdl:part name="parameters" element="tns:PenjumlahanResponse" />
+  </wsdl:message>
+  <wsdl:message name="PenguranganSoapIn">
+    <wsdl:part name="parameters" element="tns:Pengurangan" />
+  </wsdl:message>
+  <wsdl:message name="PenguranganSoapOut">
+    <wsdl:part name="parameters" element="tns:PenguranganResponse" />
+  </wsdl:message>
+  <wsdl:message name="PerkalianSoapIn">
+    <wsdl:part name="parameters" element="tns:Perkalian" />
+  </wsdl:message>
+  <wsdl:message name="PerkalianSoapOut">
+    <wsdl:part name="parameters" element="tns:PerkalianResponse" />
+  </wsdl:message>
+  <wsdl:message name="PembagianSoapIn">
+    <wsdl:part name="parameters" element="tns:Pembagian" />
+  </wsdl:message>
+  <wsdl:message name="PembagianSoapOut">
+    <wsdl:part name="parameters" element="tns:PembagianResponse" />
+  </wsdl:message>
+  <wsdl:portType name="aritmatikaSoap">
+    <wsdl:operation name="Penjumlahan">
+      <wsdl:input message="tns:PenjumlahanSoapIn" />
+      <wsdl:output message="tns:PenjumlahanSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Pengurangan">
+      <wsdl:input message="tns:PenguranganSoapIn" />
+      <wsdl:output message="tns:PenguranganSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Perkalian">
+      <wsdl:input message="tns:PerkalianSoapIn" />
+      <wsdl:output message="tns:PerkalianSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Pembagian">
+      <wsdl:input message="tns:PembagianSoapIn" />
+      <wsdl:output message="tns:PembagianSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="aritmatikaSoap" type="tns:aritmatikaSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Penjumlahan">
+      <soap:operation soapAction="http://tempuri.org/Penjumlahan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Pengurangan">
+      <soap:operation soapAction="http://tempuri.org/Pengurangan" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Perkalian">
+      <soap:operation soapAction="http://tempuri.org/Perkalian" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Pembagian">
+      <soap:operation soapAction="http://tempuri.org/Pembagian" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="aritmatikaSoap12" type="tns:aritmatikaSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Penjumlahan">
+      <soap12:operation soapAction="http://tempuri.org/Penjumlahan" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Pengurangan">
+      <soap12:operation soapAction="http://tempuri.org/Pengurangan" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Perkalian">
+      <soap12:operation soapAction="http://tempuri.org/Perkalian" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Pembagian">
+      <soap12:operation soapAction="http://tempuri.org/Pembagian" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="aritmatika">
+    <wsdl:port name="aritmatikaSoap" binding="tns:aritmatikaSoap">
+      <soap:address location="http://localhost:50212/aritmatika.asmx" />
+    </wsdl:port>
+    <wsdl:port name="aritmatikaSoap12" binding="tns:aritmatikaSoap12">
+      <soap12:address location="http://localhost:50212/aritmatika.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,20 @@
+D:\Projects\Tugas\Tugas_Web_Services\CSharp\Tugas Web Services Aritmetika\Tugas Web Services Aritmetika\bin\roslyn\csc.exe
+D:\Projects\Tugas\Tugas_Web_Services\CSharp\Tugas Web Services Aritmetika\Tugas Web Services Aritmetika\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Projects\Tugas\Tugas_Web_Services\CSharp\Tugas Web Services Aritmetika\Tugas Web Services Aritmetika\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projects\Tugas\Tugas_Web_Services\CSharp\Tugas Web Services Aritmetika\Tugas Web Services Aritmetika\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Projects\Tugas\Tugas_Web_Services\CSharp\Tugas Web Services Aritmetika\Tugas Web Services Aritmetika\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Projects\Tugas\Tugas_Web_Services\CSharp\Tugas Web Services Aritmetika\Tugas Web Services Aritmetika\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Projects\Tugas\Tugas_Web_Services\CSharp\Tugas Web Services Aritmetika\Tugas Web Services Aritmetika\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Projects\Tugas\Tugas_Web_Services\CSharp\Tugas Web Services Aritmetika\Tugas Web Services Aritmetika\bin\roslyn\System.Collections.Immutable.dll
+D:\Projects\Tugas\Tugas_Web_Services\CSharp\Tugas Web Services Aritmetika\Tugas Web Services Aritmetika\bin\roslyn\System.Reflection.Metadata.dll
+D:\Projects\Tugas\Tugas_Web_Services\CSharp\Tugas Web Services Aritmetika\Tugas Web Services Aritmetika\bin\roslyn\vbc.exe
+D:\Projects\Tugas\Tugas_Web_Services\CSharp\Tugas Web Services Aritmetika\Tugas Web Services Aritmetika\bin\roslyn\VBCSCompiler.exe
+D:\Projects\Tugas\Tugas_Web_Services\CSharp\Tugas Web Services Aritmetika\Tugas Web Services Aritmetika\bin\roslyn\VBCSCompiler.exe.config
+D:\Projects\Tugas\Tugas_Web_Services\CSharp\Tugas Web Services Aritmetika\Tugas Web Services Aritmetika\bin\Tugas Web Services Aritmetika.dll.config
+D:\Projects\Tugas\Tugas_Web_Services\CSharp\Tugas Web Services Aritmetika\Tugas Web Services Aritmetika\bin\Tugas Web Services Aritmetika.dll
+D:\Projects\Tugas\Tugas_Web_Services\CSharp\Tugas Web Services Aritmetika\Tugas Web Services Aritmetika\bin\Tugas Web Services Aritmetika.pdb
+D:\Projects\Tugas\Tugas_Web_Services\CSharp\Tugas Web Services Aritmetika\Tugas Web Services Aritmetika\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Projects\Tugas\Tugas_Web_Services\CSharp\Tugas Web Services Aritmetika\Tugas Web Services Aritmetika\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Projects\Tugas\Tugas_Web_Services\CSharp\Tugas Web Services Aritmetika\Tugas Web Services Aritmetika\obj\Debug\Tugas Web Services Aritmetika.csprojResolveAssemblyReference.cache
+D:\Projects\Tugas\Tugas_Web_Services\CSharp\Tugas Web Services Aritmetika\Tugas Web Services Aritmetika\obj\Debug\Tugas Web Services Aritmetika.dll
+D:\Projects\Tugas\Tugas_Web_Services\CSharp\Tugas Web Services Aritmetika\Tugas Web Services Aritmetika\obj\Debug\Tugas Web Services Aritmetika.pdb

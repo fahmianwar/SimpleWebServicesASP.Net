@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xts="http://fahmi.anwar/soap2" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="http://fahmi.anwar/soap2" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://fahmi.anwar/soap2">
+      <xsd:include schemaLocation="http://fahmi.anwar/soap2/skema.xsd" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="info_nikRequest">
+    <wsdl:part name="nik" type="xts:int" />
+  </wsdl:message>
+  <wsdl:message name="info_nikResponse">
+    <wsdl:part name="infonik" type="xts:string" />
+  </wsdl:message>
+  <wsdl:portType name="ServicePortType">
+    <wsdl:operation name="info_nik">
+      <wsdl:input message="wsdl:info_nikRequest" />
+      <wsdl:output message="wsdl:info_nikResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiceBinding" type="wsdl:ServicePortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="info_nik">
+      <soap:operation soapAction="http://fahmi.anwar/soap2#info_nik" />
+      <wsdl:input>
+        <soap:body use="literal" namespace="http://fahmi.anwar/soap2" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" namespace="http://fahmi.anwar/soap2" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="data_nikService">
+    <wsdl:port name="ServicePort" binding="wsdl:ServiceBinding">
+      <soap:address location="http://fahmi.anwar/soap2/infonik.php" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

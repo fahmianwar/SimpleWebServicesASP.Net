@@ -1,0 +1,9 @@
+D:\Projects\Tugas\Tugas_Web_Services\CSharp\Operator_Aritmatika\Operator_Aritmatika\bin\Debug\Operator_Aritmatika.exe.config
+D:\Projects\Tugas\Tugas_Web_Services\CSharp\Operator_Aritmatika\Operator_Aritmatika\bin\Debug\Operator_Aritmatika.exe
+D:\Projects\Tugas\Tugas_Web_Services\CSharp\Operator_Aritmatika\Operator_Aritmatika\bin\Debug\Operator_Aritmatika.pdb
+D:\Projects\Tugas\Tugas_Web_Services\CSharp\Operator_Aritmatika\Operator_Aritmatika\obj\Debug\Operator_Aritmatika.Form1.resources
+D:\Projects\Tugas\Tugas_Web_Services\CSharp\Operator_Aritmatika\Operator_Aritmatika\obj\Debug\Operator_Aritmatika.Properties.Resources.resources
+D:\Projects\Tugas\Tugas_Web_Services\CSharp\Operator_Aritmatika\Operator_Aritmatika\obj\Debug\Operator_Aritmatika.csproj.GenerateResource.Cache
+D:\Projects\Tugas\Tugas_Web_Services\CSharp\Operator_Aritmatika\Operator_Aritmatika\obj\Debug\Operator_Aritmatika.exe
+D:\Projects\Tugas\Tugas_Web_Services\CSharp\Operator_Aritmatika\Operator_Aritmatika\obj\Debug\Operator_Aritmatika.pdb
+D:\Projects\Tugas\Tugas_Web_Services\CSharp\Operator_Aritmatika\Operator_Aritmatika\obj\Debug\Operator_Aritmatika.csprojResolveAssemblyReference.cache
